@@ -1,0 +1,49 @@
+
+.header {
+    width: 187px;
+    height: 45px;
+    flex-shrink: 0;
+    text-align: left;
+    padding: 0;
+    margin: auto;
+    background-color: #7155A5;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    background-color: #7155A5;
+    color: white;
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0;
+}
+
+.skillList, .toolList {
+    background-color: #F5F5F5;
+    color: black;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px;
+    text-align: center;
+    justify-content: end;
+    
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.footer {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #7155A5;
+    color: white;
+}
