@@ -9,6 +9,10 @@
     background-color: #7155A5;
 }
 
+h1 {
+    text-align: center;
+}
+
 
 ul {
     list-style: none;
@@ -32,6 +36,21 @@ li {
     text-align: center;
     justify-content: end;
     
+}
+
+.workGrid {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+    width:170px;
+    border: 1px solid black;
+    margin: 15px;
+   
+}
+
+section {
+    text-align: center;
 }
 
 body {
