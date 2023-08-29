@@ -44,8 +44,27 @@ li {
     text-align: center;
     align-content: center;
     margin: 15px; 
+    
+
    
 }
+
+.projectOne, .projectTwo, .projectThree img {
+    transition: all 0.2s ease-in; 
+}
+
+.projectOne img:hover {
+    transform: rotate(20deg);
+}
+
+.projectTwo img:hover {
+    transform: rotate(20deg);
+}
+
+ .projectThree img:hover {
+    transform: rotate(20deg);
+}
+
 
 .projectSummary {
     display: grid;
@@ -80,4 +99,8 @@ body {
     padding: 0;
     background-color: #7155A5;
     color: white;
+}
+
+@media screen and (min-width: 360px) {
+    .projectOne, .projectTwo, .projectThree {align-content: left}
 }
